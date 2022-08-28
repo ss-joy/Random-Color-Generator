@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 160px;
+}
+div {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+section {
+  margin-left: 50px;
+}
+
+.plus:hover,
+.minus:hover {
+  border: 9px solid rgb(225, 81, 81);
+}
