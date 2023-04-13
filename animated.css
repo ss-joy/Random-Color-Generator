@@ -8,10 +8,24 @@ header {
   height: 160px;
 }
 div {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   margin: 10px;
   border-radius: 10px;
+  padding: 10px;
+}
+main img {
+  height: 150px;
+  width: 150px;
+  border: none;
+
+  object-fit: cover;
+}
+main img:hover {
+  cursor: none;
+}
+main div {
+  text-align: center;
 }
 section {
   margin-left: 50px;
