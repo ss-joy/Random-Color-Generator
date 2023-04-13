@@ -1,9 +1,8 @@
 body {
-  background-color: aliceblue;
   background-image: url("/asstes/images/IMG_20190605_213159.jpg");
   background-repeat: no-repeat;
-  /* object-fit: cover; */
   background-size: cover;
+  background-position: 0;
 }
 main {
   font-size: 4rem;
