@@ -6,17 +6,14 @@ body {
 }
 main {
   font-size: 4rem;
-  text-align: center;
   font-family: "Fredoka One", cursive;
 }
-ul {
-  padding-top: 200px;
-}
-li {
-  list-style: none;
-  margin-bottom: 200px;
-}
+
 a {
+  text-align: center;
+  display: block;
+  width: 14rem;
+  margin: 6rem auto;
   text-decoration: none;
   color: aquamarine;
   background-color: rgb(41, 94, 94);
