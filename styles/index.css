@@ -1,9 +1,3 @@
-body {
-  background-image: url("/asstes/images/IMG_20190605_213159.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0;
-}
 main {
   font-size: 4rem;
   font-family: "Fredoka One", cursive;
@@ -18,10 +12,14 @@ a {
   color: aquamarine;
   background-color: rgb(41, 94, 94);
   padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-radius: 1.2rem;
   transition: all 0.3s;
 }
 a:hover {
+  border: 2px solid aquamarine;
+
   cursor: pointer;
   color: whitesmoke;
   background-color: rgb(42, 112, 112);
